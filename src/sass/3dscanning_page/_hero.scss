@@ -1,0 +1,96 @@
+.scaning__section-hero {
+  padding-top: 32px;
+}
+.scaning__section-title {
+  font-family: var(--primary-font-family);
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.scaning__section-list-item {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  position: relative;
+  z-index: +1;
+}
+.scaning__section-list-item {
+  margin-bottom: 16px;
+  &:last-child {
+    margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .scaning__section-hero {
+    padding-top: 35px;
+  }
+  .scaning__section-title {
+    font-size: 36px;
+  }
+  .scaning__section-list {
+    display: block;
+    max-width: 515px;
+  }
+  .container__section-hero {
+    position: relative;
+  }
+  .scaning__section-list-item:last-child {
+    margin-bottom: 0px;
+    }
+  .scaning__section-list-item:not(:first-child) {
+      padding-right: 30px;
+      }
+  .scaning__section-hero-picture {
+    position: absolute;
+    width: 241px;
+    height: 172px;
+    bottom: 25px;
+    right: -60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .scaning__section-hero {
+    padding-top: 25px;
+  }
+  .scaning__section-title {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+  .container__section-hero {
+    position: relative;
+  }
+  .scaning__section-hero-picture {
+    position: absolute;
+    width: 515px;
+    height: 368px;
+    top: 141px;
+    right: 0px;
+  }
+  .scaning__section-list {
+    display: flex;
+    max-height: 300px;
+    flex-flow: column wrap;
+    align-content: space-between;
+  }
+  .scaning__section-list-item {
+    display: block;
+    max-width: 515px;
+    font-size: 18px;
+    line-height: 1.28;
+    margin-bottom: 0px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+    &:first-child {
+      margin-bottom: 24px;
+    }
+ }
+}
