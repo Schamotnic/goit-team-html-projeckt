@@ -6,7 +6,7 @@
   "homepage": "https://Schamotnic.github.io/goit-team-html-projeckt",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /goit-4team/"
+    "build": "parcel build src/*.html --public-url /goit-team-html-projeckt/"
   },
   "repository": {
     "type": "git",
